@@ -1,0 +1,73 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato&family=Poppins&display=swap");
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Lato", sans-serif;
+  background-color: #f2f5f9;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  color: #677489;
+}
+
+.card {
+  background-color: #ffffff;
+  width: 100%;
+  max-width: 400px;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+img {
+  width: 100%;
+}
+
+.card h2.title {
+  font-size: 1.5rem;
+  color: #111729;
+  font-family: "Poppins", sans-serif;
+  letter-spacing: -1px;
+  line-height: 1.3;
+  margin-top: 0.6rem;
+}
+
+.card__body,
+.card__account {
+  padding: 1rem 2rem;
+}
+
+.card__content p {
+  line-height: 1.5;
+}
+
+.card__account {
+  display: flex;
+  gap: 1.2rem;
+  align-items: center;
+  border-top: 1.5px solid #f2f5f9;
+  line-height: 1;
+}
+
+.account__image {
+  width: 50px;
+  border-radius: 50%;
+  border: 5px solid #f2f5f9;
+}
+
+.account__name {
+  color: #111729;
+  font-weight: bold;
+  margin-top: 0;
+  margin-bottom: 0.3rem;
+}
+
+.account__job {
+  font-size: 0.75rem;
+  margin-block: 0;
+}
